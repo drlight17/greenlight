@@ -228,7 +228,7 @@ ru:
     designs: Изменение внешнего вида
     authentication: Аутентификация пользователей
   footer:
-    powered_by: "©2020 ФИЦ КНЦ РАН | Powered by %{href}."
+    powered_by: "©2020 <a href="https://ksc.ru">ФИЦ КНЦ РАН</a> | Powered by %{href}."
   forgot_password:
     subtitle: Забыл пароль
     email: Электронная почта
