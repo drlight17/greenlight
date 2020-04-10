@@ -2,3 +2,14 @@
 .header-brand-img {
     height: 4rem!important;
 }
+/* hide signup*/
+body > div.header.py-4 > div > div > div > a:nth-child(2) {
+    display:none!important;
+}
+/* hide "or" divider at signin page */
+body > div.wrapper > div > div > div > div > div.card-body.background > div {
+    display:none!important;
+}
+/* hide email reg form*/
+body > div.wrapper > div > div > div > div > div.card-body.background > form {
+    display:none!important;
