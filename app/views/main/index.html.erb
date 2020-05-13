@@ -14,7 +14,7 @@
 %>
 
 <div class="background">
-  <div class="container pt-9 pb-8">
+  <div style="padding-top: 37px!important; padding-bottom: 37px!important;" class="container pt-9 pb-8">
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
@@ -22,10 +22,13 @@
         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>
         <% end %>
-      </div>
 
+      </div>
     </div>
   </div>
-</div>
 
+</div>
+<div class="videoWrapper">
+    <iframe width="884" height="479" src="https://youtube.com/embed/Hso8yLzkqj8?autoplay=1" frameborder="0" allowfullscreen></iframe>
+</div>
 <%#= render "main/components/features" %>
